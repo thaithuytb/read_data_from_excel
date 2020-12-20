@@ -1,0 +1,26 @@
+.wp__propsShowSheetName {
+    text-align: center;
+}
+.wp__sheetName {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sheetName {
+    border: 1px solid #333333;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sheetNameSeLected {
+    border: 1px solid #333333;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    opacity: 0.6;
+    background: #999999;
+    color: red;
+}

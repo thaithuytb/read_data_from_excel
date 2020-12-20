@@ -1,0 +1,17 @@
+.border_rows {
+    border: 1px solid #333333;
+    padding: 10px;
+}
+.border_cols {
+    border: 0.8px solid #666666;
+    padding: 10px;
+}
+.wpFile {
+    min-height: 90vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 30px;
+    /* margin: 0 auto; */
+    /* margin-top: 30px; */
+}
