@@ -3,9 +3,15 @@ import ShowFile from './components/show/index';
 import ShowSheetName from "./components/showSheetName/index";
 import * as XLSX from "xlsx";
 
+interface State {
+  dataFile: any,
+  listSheetNames: string[],
+  nameFile:any
+}
+
 const App:React.FC = () => {
   // use state
-  const [data, setData]:[any,any] = useState();
+  const [data, setData] = React.useState<State | any>();
   // ==================////============================
   //function readFile
   const readFile = (nameFile:any) => {

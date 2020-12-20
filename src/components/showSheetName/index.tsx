@@ -8,7 +8,7 @@ interface propsShowSheetName {
 const ShowSheetName:React.FC <propsShowSheetName> = (props)=>{
     
 
-    const [selected, setSelected] = useState(0);
+    const [selected, setSelected] = useState<number>(0);
     const {dataSheetNames, handlyClickSheetName } = props;
     // console.log(dataSheetNames);
     return(
